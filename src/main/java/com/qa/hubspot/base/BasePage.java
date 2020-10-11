@@ -14,6 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import com.qa.hubspot.utils.Constants;
 import com.qa.hubspot.utils.ElementUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -144,7 +145,7 @@ public class BasePage {
 	}
 
 	public void switchToFrame() {
-		 tlDriver.set(driver.switchTo().frame("mainpanel"));
+		 tlDriver.set(driver.switchTo().frame(Constants.FRAME_NAME));
 	}
 
 }

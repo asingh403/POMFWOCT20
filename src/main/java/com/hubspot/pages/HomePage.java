@@ -53,7 +53,7 @@ public class HomePage extends BasePage {
 	
 	private void clickOnContacts() {
 		//basePage.switchToFrame();
-		tlDriver.set(driver.switchTo().frame("mainpanel"));
+		tlDriver.set(driver.switchTo().frame(Constants.FRAME_NAME));
 		elementUtil.mouseHover(Locators.contactsLink);
 		TimeUtil.shortWait();
 		elementUtil.doClick(Locators.newContactLink);
