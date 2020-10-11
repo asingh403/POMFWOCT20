@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33404" started-at="2020-10-11T09:07:43Z" finished-at="2020-10-11T09:08:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33404" started-at="2020-10-11T09:07:43Z" finished-at="2020-10-11T09:08:16Z">
+      <class name="com.qa.hubspot.test.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@3624da92]" name="setUp" is-config="true" duration-ms="12835" started-at="2020-10-11T09:07:43Z" finished-at="2020-10-11T09:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactSetup()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@3624da92]" name="contactSetup" is-config="true" duration-ms="19346" started-at="2020-10-11T09:07:56Z" finished-at="2020-10-11T09:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSetup -->
+        <test-method status="PASS" signature="verifyAltEmailTextTest()[pri:3, instance:com.qa.hubspot.test.ContactPageTest@3624da92]" name="verifyAltEmailTextTest" duration-ms="78" started-at="2020-10-11T09:08:15Z" finished-at="2020-10-11T09:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAltEmailTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@3624da92]" name="tearDown" is-config="true" duration-ms="786" started-at="2020-10-11T09:08:15Z" finished-at="2020-10-11T09:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.test.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

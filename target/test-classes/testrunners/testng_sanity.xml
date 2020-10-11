@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Classic CRM PRO Regression" verbose="3">
+
+	<listeners>
+
+		<listener
+			class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+		<!-- <listener class-name="com.qa.hubspot.listeners.pdfListener" /> -->
+
+	</listeners>
+
+	<test name="login Tests">
+		<classes>
+			<class name="com.qa.hubspot.test.LoginPageTest" />
+
+		</classes>
+	</test>
+
+
+	<test name="homePage Tests">
+		<classes>
+			<class name="com.qa.hubspot.test.HomePageTest" />
+
+		</classes>
+	</test>
+
+</suite>
